@@ -22,5 +22,12 @@ namespace RegisterTest
                 Throws.TypeOf<System.ArgumentException>()
             );
         }
+
+        [Test]
+        public void Add_OneItem_ItemCountCorrect()
+        {
+            uut_.AddItem(5.0);
+            Assert.That(uut_.NItems, Is.EqualTo(2));
+        }
     }
 }
