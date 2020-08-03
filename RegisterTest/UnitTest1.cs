@@ -29,5 +29,12 @@ namespace RegisterTest
             uut_.AddItem(5.0);
             Assert.That(uut_.NItems, Is.EqualTo(1));
         }
+
+        [Test]
+        public void Add_OneItem_TotalCorrect()
+        {
+            uut_.AddItem(5.5);
+            Assert.That(uut_.Total, Is.EqualTo(5.5));
+        }
     }
 }
