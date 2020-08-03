@@ -27,7 +27,7 @@ namespace RegisterTest
         public void Add_OneItem_ItemCountCorrect()
         {
             uut_.AddItem(5.0);
-            Assert.That(uut_.NItems, Is.EqualTo(2));
+            Assert.That(uut_.NItems, Is.EqualTo(1));
         }
     }
 }
