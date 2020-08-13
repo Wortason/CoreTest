@@ -11,13 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterTest", "RegisterTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterAppFramework", "RegisterAppFramework\RegisterAppFramework.csproj", "{0933BA2D-E0F1-4A31-99F0-1258918229DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterTestFramework", "RegisterTestFramework\RegisterTestFramework.csproj", "{43DBA4E3-9B4A-4F40-8D93-157090C59138}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterLibFramework", "RegisterLibFramework\RegisterLibFramework.csproj", "{E4208E53-6004-483F-9054-3AF279CC88C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterLibCore", "RegisterLibCore\RegisterLibCore.csproj", "{1821B077-C1DB-4096-BE41-A00A759AC7C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{4D4148EB-4684-4D09-9B5D-9053B7B478BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{4D4148EB-4684-4D09-9B5D-9053B7B478BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,18 +75,6 @@ Global
 		{0933BA2D-E0F1-4A31-99F0-1258918229DD}.Release|x64.Build.0 = Release|Any CPU
 		{0933BA2D-E0F1-4A31-99F0-1258918229DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{0933BA2D-E0F1-4A31-99F0-1258918229DD}.Release|x86.Build.0 = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|x64.Build.0 = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Debug|x86.Build.0 = Debug|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|x64.ActiveCfg = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|x64.Build.0 = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|x86.ActiveCfg = Release|Any CPU
-		{43DBA4E3-9B4A-4F40-8D93-157090C59138}.Release|x86.Build.0 = Release|Any CPU
 		{E4208E53-6004-483F-9054-3AF279CC88C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4208E53-6004-483F-9054-3AF279CC88C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4208E53-6004-483F-9054-3AF279CC88C6}.Debug|x64.ActiveCfg = Debug|Any CPU
