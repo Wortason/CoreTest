@@ -50,7 +50,7 @@ namespace RegisterTest
         {
             uut_.AddItem(1.2);
             uut_.AddItem(2.6);
-            Assert.That(uut_.Total, Is.EqualTo(3.8));
+            Assert.That(uut_.Total, Is.EqualTo(3.9));
         }
     }
 }
